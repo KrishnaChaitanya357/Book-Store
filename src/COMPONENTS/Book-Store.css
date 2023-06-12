@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: black; 
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.navbrand{
+    color: white;
+    padding: 1rem;
+
+}
+
+.searchbar{
+width: 15vw;
+height: 50px;
+border-radius: 10px;
+position: relative;
+top: 11px;
+}
+#searchbtn{
+    
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    left: -195px;
+    top: 11px;
+}
+
+/* Books List */
+
+.books-container{
+    display: flex;
+    justify-content: center;
+}
+
+.books-card{
+    
+    width: 15rem;
+    height: 15rem;
+    background-color: black;
+    color: white;
+    border: 2px solid balck ;
+    border-radius: .5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem ;
+}
